@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
-sudo apt-get update
-sudo apt-get -y install libatomic1
 # git config --global credential.helper store
 # Use Deploy keys instead
 # https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys
 
 # https://github.com/nvm-sh/nvm
+sudo apt-get update
+sudo apt-get -y install libatomic1
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
