@@ -2,7 +2,7 @@
 
 # https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage
 sudo apt-get update
-sudo apt-get -y install git
+sudo apt-get -y install libatomic1
 # git config --global credential.helper store
 # Use Deploy keys instead
 # https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys
