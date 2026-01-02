@@ -35,6 +35,7 @@ sudo apt-get -y install certbot
 
 # https://ubuntu.com/server/docs/databases-mysql
 sudo apt-get -y install mysql-server
+# sudo apt-get -y install mariadb-server
 
 # https://nodemailer.com/transports/sendmail/
 # https://man7.org/linux/man-pages/man5/hosts.5.html#EXAMPLES
