@@ -33,9 +33,11 @@ sudo snap install --classic certbot
 # https://certbot.eff.org/docs/using.html#where-are-my-certificates
 # sudo chmod -R 0755 /etc/letsencrypt/{live,archive}
 
-# https://ubuntu.com/server/docs/databases-mysql
+# https://ubuntu.com/server/docs/how-to/databases/install-mysql/
 sudo apt-get -y install mysql-server
 # sudo apt-get -y install mariadb-server
+# https://ubuntu.com/server/docs/how-to/databases/install-postgresql/
+# sudo apt-get -y install postgresql
 
 # https://nodemailer.com/transports/sendmail/
 # https://man7.org/linux/man-pages/man5/hosts.5.html#EXAMPLES
