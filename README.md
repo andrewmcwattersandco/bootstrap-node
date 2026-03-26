@@ -1,6 +1,6 @@
-# bootstrap-express
+# bootstrap-node
 
-Provisioning script for Express on Ubuntu
+Provisioning script for Node.js on Ubuntu
 
 ## Provision
 
@@ -15,14 +15,14 @@ As `user`, set your FQDN for sendmail, then run `bootstrap.sh`.
 ```
 
 ```sh
-curl -o - https://raw.githubusercontent.com/andrewmcwattersandco/bootstrap-express/v2.0.4/bootstrap.sh | bash
+curl -o - https://raw.githubusercontent.com/andrewmcwattersandco/bootstrap-node/v2.0.5/bootstrap.sh | bash
 ```
 
 ## License
 
 MIT License
 
-Copyright (c) 2025 Andrew McWatters & Co.
+Copyright (c) 2026 Andrew McWatters & Co.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
