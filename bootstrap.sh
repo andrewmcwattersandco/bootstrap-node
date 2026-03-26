@@ -20,8 +20,8 @@ sudo setcap cap_net_bind_service=+ep $(which node)
 # https://pm2.keymetrics.io
 npm install pm2 -g
 
-# https://certbot.eff.org/instructions?ws=other&os=ubuntufocal
-sudo apt-get -y install certbot
+# https://certbot.eff.org/instructions?ws=other&os=snap
+sudo snap install --classic certbot
 # sudo certbot certonly --standalone -n --agree-tos -m name@example.com --redirect -d example.com,www.example.com
 
 # https://eff-certbot.readthedocs.io/en/stable/using.html?highlight=renewal#setting-up-automated-renewal
